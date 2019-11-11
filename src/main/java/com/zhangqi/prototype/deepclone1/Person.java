@@ -5,6 +5,9 @@ public class Person  implements Cloneable {
     private String name;
     private Address address;
 
+    public Person() {
+    }
+
     public Person(int age, String name, Address address) {
         this.age = age;
         this.name = name;
